@@ -1,0 +1,11 @@
+Polymorphic Gate Combination,HVDD Gate,HVDD Function,LVDD Gate,LVDD Function
+TH23_TH13,TH23,(A & B) | (A & C) | (B & C),TH13,A | B | C
+TH23_TH23w2,TH23,(A & B) | (A & C) | (B & C),TH23w2,A | (B & C)
+TH33_TH13,TH33,A & B & C,TH13,A | B | C
+TH33_TH23,TH33,A & B & C,TH23,(A & B) | (A & C) | (B & C)
+TH33_TH23w2,TH33,A & B & C,TH23w2,A | (B & C)
+TH33_TH33w2,TH33,A & B & C,TH33w2,(A & B) | (A & C)
+TH23w2_TH13,TH23w2,A | (B & C),TH13,A | B | C
+TH33w2_TH13,TH33w2,(A & B) | (A & C),TH13,A | B | C
+TH33w2_TH23,TH33w2,(A & B) | (A & C),TH23,(A & B) | (A & C) | (B & C)
+TH33w2_TH23w2,TH33w2,(A & B) | (A & C),TH23w2,A | (B & C)
