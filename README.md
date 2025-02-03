@@ -64,6 +64,10 @@ When creating polymorphic gate combinations:
    - Some PDKs require HVDD function to be a subset of LVDD function
    - Others require LVDD function to be a subset of HVDD function
 
+## Pre Generated Gate Combinations
+
+See the `gates_list` folder for a few pre-generated gate combinations in CSV format.
+
 ## Available Standard Gates
 
 Below is the complete list of standard MTNCL gates available for polymorphic combinations:

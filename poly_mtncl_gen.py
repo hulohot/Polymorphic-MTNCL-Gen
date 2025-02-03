@@ -45,7 +45,7 @@ class PolymorphicGateCombination:
         self.lvdd_function = GATES[lvdd_gate]
 
     def __repr__(self):
-        return (f"PolymorphicGateCombination(\n\tHVDD: {self.hvdd_gate} ({self.hvdd_function}),\n"
+        return (f"\n{self.hvdd_gate}_{self.lvdd_gate}\nPolymorphicGateCombination(\n\tHVDD: {self.hvdd_gate} ({self.hvdd_function}),\n"
                 f"\tLVDD: {self.lvdd_gate} ({self.lvdd_function})\n)")
 
     def generate_truth_table(self):

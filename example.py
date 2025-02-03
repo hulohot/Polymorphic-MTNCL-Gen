@@ -14,9 +14,9 @@ def print_four_input_combinations(subset_type):
 if __name__ == "__main__":
 
     # HVDD Subset means HVDD Gate is a subset of LVDD Gate
-    subset_type = "hvdd_subset"
+    # subset_type = "hvdd_subset"
     # LVDD Subset means LVDD Gate is a subset of HVDD Gate
-    # subset_type = "lvdd_subset"
+    subset_type = "lvdd_subset"
 
 
     gates = []
